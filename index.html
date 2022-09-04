@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator Using HTML CSS & JS</title>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="pssw-container">
+
+        <!-- header box -->
+        <div class="pssw-header">
+
+            <div class="pssw">
+                <span id="password">Password Here</span>
+                <button id="copy">Copy</button>
+            </div>
+
+        </div>
+
+        <!-- body box -->
+        <div class="pssw-body">
+
+            <div class="form-control">
+                <label for="length">Password Length</label>
+                <input id="length" value="8" type="number" min="8" max="30">
+            </div>
+
+            <div class="form-control">
+                <label for="upper">Contain Uppercase Letters</label>
+                <input id="upper" type="checkbox">
+            </div>
+
+            <div class="form-control">
+                <label for="lower">Contain Lowercase Letters</label>
+                <input id="lower" type="checkbox">
+            </div>
+            
+            <div class="form-control">
+                <label for="number">Contain Numbers</label>
+                <input id="number" type="checkbox">
+            </div>
+
+            <div class="form-control">
+                <label for="symbol">Contain Symbol</label>
+                <input id="symbol" type="checkbox">
+            </div>
+
+            <button class="generate" id="generate">Generate Password</button>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- custom Js file link -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
